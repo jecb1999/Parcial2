@@ -1,0 +1,52 @@
+.TareaComponent{
+    background: gold;
+    padding: 25px;
+    width: 300px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.General{
+    flex-direction: row;
+}
+
+
+.delt{
+    background-color: red;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.doing{
+    position: relative;
+    margin: 10px auto;
+}
+
+.adv{
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.back{
+    background-color: yellow;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tareaConteiner{
+    flex-direction: column;
+}
